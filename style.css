@@ -1,0 +1,115 @@
+
+.parent{
+    width: 350px;
+    height: auto;
+    box-shadow: 3px 3px 30px #b2a3ba;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Trebuchet MS", sans-serif;
+
+}
+.parent .top span{
+    background-color: #6E2594;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 6px;
+    padding: 3px 10px;
+    border-radius: 0 20px 20px 0;
+    border-top: 5%;
+    box-sizing: border-box;
+    position: absolute;
+}
+.parent img{
+    width: 80%;
+    padding-left: 35px;
+    display: flex;
+    margin-block-end: ;
+
+}
+.contain{
+    padding: 6%;
+    
+    
+}
+.contain h4{
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 7%;
+    }
+.contain h4:hover {
+    color: #ef4a23;
+    text-decoration:underline;
+    cursor: pointer
+    
+}
+.specification{
+    font-size: 14px;
+    padding-left: 0;
+    color: #666;
+    font-weight: 300;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #f7f7f7;
+    
+}
+ul li{
+    line-height: 25px;
+    display: list-item;
+    box-sizing: border-box;
+    
+    
+}
+.price h3{
+   color: rgb(213, 30, 11);
+   text-align: center;
+   background-color: #f5f4f4;
+   border-radius: 5px;
+}
+.price h3 span{
+    color: rgb(74, 71, 68);
+    text-decoration: line-through;
+}
+.action h4{
+    color: #3749BB;
+    text-align: center;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: #d4d7f5;
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+.action h4:hover {
+    background-color: #3749BB;
+    color: #fff;
+}
+.button{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 7px;
+}
+.button span{
+    background: #d4d7f5;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+    
+}
+.button span:hover {
+    background-color: #3f2323;
+    color: #fff;
+
+}
